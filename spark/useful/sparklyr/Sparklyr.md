@@ -1,4 +1,4 @@
-#Example of running Sparklyr
+# Example of running Sparklyr
 
 ```
 system("echo melvin | kinit melvin") #this is only if environment is using kerberos, change to a keytab file in the real world :) 
@@ -34,7 +34,7 @@ hadoop fs -put Sample-Spreadsheet-10-rows.csv /user/melvin/
 ```
 
 ```
-res <- spark_read_csv(sc, name="some_data", path="hdfs:///user/melvin/Sample-Spreadsheet-10-rows.csv", header=TRUE)
+res <- spark_read_csv(sc, name="some_data", path="hdfs:///user/melvin/Sample-Spreadsheet-10-rows.csv", header=FALSE)
 ```
 
 
