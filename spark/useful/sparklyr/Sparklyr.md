@@ -40,7 +40,7 @@ res <- spark_read_csv(sc, name="some_data", path="hdfs:///user/melvin/Sample-Spr
 
 # Other useful commands
 
-To see the spark Web UI for the application, run the below 
+To see the spark Web UI for the application, run the below. In YARN mode have seen this be a little flaky and doesnt always point to YARN application (ie points to default spark UI on port 4040 etc) in that case go to the YARN RM page on port 8090
 ```
 spark_web(sc)
 ```
