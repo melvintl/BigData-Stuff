@@ -1,4 +1,4 @@
-# Example of running Sparklyr
+# Working with Sparklyr
 
 Sparklyr is an R interface to Spark, it allows using Spark as the backend for dplyr – one of the most popular data manipulation packages. sparklyr also allows user to query data in Spark using SQL
 
@@ -69,9 +69,9 @@ Rscript <script.r file>
 
 ## Other useful links 
 
-https://spark.rstudio.com/deployment.html#package_options
-https://github.com/rstudio/config  - good when working with RStudio
-https://github.com/rstudio/sparklyr
-https://aws.amazon.com/blogs/big-data/running-sparklyr-rstudios-r-interface-to-spark-on-amazon-emr/
-http://www.cureffi.org/2014/01/15/running-r-batch-mode-linux/ - may want to try to use the shebang 
+⋅⋅* https://spark.rstudio.com/deployment.html#package_options
+⋅⋅* https://github.com/rstudio/config  - good when working with RStudio
+⋅⋅* https://github.com/rstudio/sparklyr
+⋅⋅* https://aws.amazon.com/blogs/big-data/running-sparklyr-rstudios-r-interface-to-spark-on-amazon-emr/
+⋅⋅* http://www.cureffi.org/2014/01/15/running-r-batch-mode-linux/ - may want to try to use the shebang 
 
