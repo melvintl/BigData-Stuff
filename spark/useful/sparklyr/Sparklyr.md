@@ -74,6 +74,8 @@ https://spark.rstudio.com/deployment.html#package_options
 https://github.com/rstudio/config  - good when working with RStudio
 
 https://github.com/rstudio/sparklyr
+
 https://aws.amazon.com/blogs/big-data/running-sparklyr-rstudios-r-interface-to-spark-on-amazon-emr/
+
 http://www.cureffi.org/2014/01/15/running-r-batch-mode-linux/ - may want to try to use the shebang 
 
