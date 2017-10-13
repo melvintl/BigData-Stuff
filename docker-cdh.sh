@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --hostname=quickstart.cloudera  --name cdh --privileged=true -t -i -p 8888:8888 -p 7180:7180 -p 80:80 -p 50070:50070 -p 8088:8088 -p 8042:8042  -p 18088:18088 -p 19888:19888 -p 9000:9000  -v /Users/melvin.lancelot/Code:/Code   cloudera/quickstart /usr/bin/docker-quickstart
